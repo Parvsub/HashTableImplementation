@@ -13,6 +13,8 @@
 
             myHashTable.Display();
 
+            myHashTable.Search("Mohan");
+            myHashTable.Search("Samyuktha");
         }
     }
 }
