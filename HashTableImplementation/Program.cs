@@ -5,6 +5,14 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            CustomHashTable<string> myHashTable = new CustomHashTable<string>(10);
+            myHashTable.Add("Praveen");
+            myHashTable.Add("Mohan");
+            myHashTable.Add("Rohith");
+            myHashTable.Add("Samyuktha");
+
+            myHashTable.Display();
+
         }
     }
 }
