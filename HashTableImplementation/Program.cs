@@ -15,6 +15,10 @@
 
             myHashTable.Search("Mohan");
             myHashTable.Search("Samyuktha");
+
+            myHashTable.Delete("Samyuktha");
+
+            myHashTable.Display();
         }
     }
 }
